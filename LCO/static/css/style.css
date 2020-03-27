@@ -1,0 +1,32 @@
+
+.heading{
+    background-image: url(../images/animated-pics.gif);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    background-color: #03dac5;
+    position: relative;
+}
+
+body{
+    background-color: #03dac5;
+}
+
+.nav-bitl{
+    background-color: #6200ee;
+}
+
+.nav-bit{
+    background-color: #3700b3;
+    height: 100px;
+}
+
+.animeter{
+    content: url('../icons/sports-logo-transparent.png');
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 40%;
+    left: 45%;
+}
