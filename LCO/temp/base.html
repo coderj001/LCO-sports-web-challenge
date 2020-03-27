@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCO | {% block title %}{% endblock %}</title>
+</head>
+<!-- font awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<!-- Materialize Css -->
+<link rel="stylesheet" href="{% static 'css/materialize.min.css' %}">
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Extra added -->
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<body>
+    <!-- navbar -->
+    <div class="nav-bit">
+        <nav class="nav-wrapper nav-bitl">
+            <div class="container">
+                <a href="{% url 'index' %}" class="brand-logo"><img src="{% static 'icons/sports-logo-transparent.png' %}" alt="logo" height="120px" width="120px"></a>
+                <ul class="right">
+                    <li><a href="#" >About Us</a></li>
+                    <li><a href="#" >Tournament</a></li>
+                    <li><a href="#" >Team</a></li>
+                    <li><a href="#" >Video</a></li>
+                    <li><a href="#" >FAQ</a></li>
+                    <li><a href="#" >Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    {% block content %}
+
+    {% endblock %}
+    <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>About Me</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta iste nobis optio perferendis facere est maiores sit tempora ratione soluta illo quia quasi delectus quis, necessitatibus qui incidunt velit ipsa.</p>
+        </div>
+        <div class="col s12 l4 offset-2">
+          <h5>Connect</h5>
+          <ul>
+            <li><a href="" class="grey-text text-lighten-3">Facebook</a></li>
+            <li><a href="" class="grey-text text-lighten-3">Linkdin</a></li>
+            <li><a href="" class="grey-text text-lighten-3">Twitter</a></li>
+            <li><a href="" class="grey-text text-lighten-3">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2020 <a href="github.com/coderj001">coderj001</a></div>
+    </div>
+  </footer>
+
+</body>
+<!-- Compailed Materialize Js -->
+<script src="{% static 'js/materialize.min.js' %}"></script>
+<!-- Anime Js -->
+<script src="{% static 'js/anime.min.js' %}"></script>
+<!-- Coustom Js -->
+<script src="{% static 'js/index.js' %}"></script>
+</html>
