@@ -29,3 +29,6 @@ anime({
     delay: 200,
 });
 
+function showToast(){
+    M.toast({html: 'Will added in future. <button class="btn-flat toast-action"><a href="/login">easteregg</button>', classes: 'rounded'},3000)
+};

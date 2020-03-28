@@ -26,5 +26,7 @@ urlpatterns = [
     path('video/',views.video,name='video'),
     path('FAQ/',views.faq,name="FAQ"),
     path('team/', views.team,name='team'),
+    path('login/', views.login, name='login'),
+    path('QVB0U0lPR09oSmk/', views.QVB0U0lPR09oSmk, name='QVB0U0lPR09oSmk')
 
 ]

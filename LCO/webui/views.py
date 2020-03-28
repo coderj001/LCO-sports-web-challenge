@@ -15,7 +15,13 @@ def video(req):
     return render(req,'video.html',{})
 
 def faq(req):
-    return render(req,'FAQ.html', {})
+    return render(req,'FAQ.html',{})
 
 def team(req):
-    return render(req,'team.html', {})
+    return render(req,'team.html',{})
+
+def login(req):
+    return render(req,'login.html',{})
+    
+def QVB0U0lPR09oSmk(req):
+    return render(req,'QVB0U0lPR09oSmk.html',{})
