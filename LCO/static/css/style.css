@@ -9,6 +9,7 @@
     position: relative;
 }
 
+
 body{
     background-color: #e3e5de;
 }
@@ -52,4 +53,16 @@ body{
 
 .video{
     padding: 40px;
+}
+
+.faq-content{
+    padding-top:60px;
+    height: 115vh;
+}
+
+.collasp{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    opacity: inherit;
+    color: #141414;
 }

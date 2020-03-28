@@ -13,3 +13,6 @@ def tournament(req):
 
 def video(req):
     return render(req,'video.html',{})
+
+def faq(req):
+    return render(req, 'FAQ.html', {})

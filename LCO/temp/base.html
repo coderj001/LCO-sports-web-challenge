@@ -14,6 +14,8 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!-- Extra added -->
 <link rel="stylesheet" href="{% static 'css/style.css' %}">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet">
 <body>
     <!-- navbar -->
     <div class="nav-bit">
@@ -25,7 +27,7 @@
                     <li><a href="{% url 'tournament' %}" >Tournament</a></li>
                     <li><a href="#" >Team</a></li>
                     <li><a href="{% url 'video' %}" >Video</a></li>
-                    <li><a href="#" >FAQ</a></li>
+                    <li><a href="{% url 'FAQ' %}" >FAQ</a></li>
                     <li><a href="#" >Login</a></li>
                 </ul>
             </div>
