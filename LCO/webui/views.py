@@ -7,3 +7,9 @@ def index(req):
 
 def about(req):
     return render(req,'about.html',{})
+
+def tournament(req):
+    return render(req,'tournament.html',{})
+
+def video(req):
+    return render(req,'video.html',{})
