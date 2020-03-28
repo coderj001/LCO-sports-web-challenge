@@ -11,6 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Parallax.init(elems);
     var elems = document.querySelectorAll('.collapsible');
     var instances = M.Collapsible.init(elems);
+    var elems = document.querySelectorAll('.scrollspy');
+    var instances = M.ScrollSpy.init(elems);
+    var elems = document.querySelectorAll('.tooltipped');
+    var instances = M.Tooltip.init(elems);
 });
 
 let deco=document.getElementsByClassName('deco');
