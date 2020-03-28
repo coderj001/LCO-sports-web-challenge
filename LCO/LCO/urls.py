@@ -25,5 +25,6 @@ urlpatterns = [
     path('tournament/', views.tournament, name='tournament'),
     path('video/',views.video,name='video'),
     path('FAQ/',views.faq,name="FAQ"),
+    path('team/', views.team,name='team'),
 
 ]

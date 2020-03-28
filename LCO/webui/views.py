@@ -15,4 +15,7 @@ def video(req):
     return render(req,'video.html',{})
 
 def faq(req):
-    return render(req, 'FAQ.html', {})
+    return render(req,'FAQ.html', {})
+
+def team(req):
+    return render(req,'team.html', {})

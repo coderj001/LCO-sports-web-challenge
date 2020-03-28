@@ -66,3 +66,7 @@ body{
     opacity: inherit;
     color: #141414;
 }
+
+.team-content{
+    padding: 50px;
+}
