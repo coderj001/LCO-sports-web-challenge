@@ -5,12 +5,12 @@
     background-position: top;
     background-size: cover;
     height: 500px;
-    background-color: #03dac5;
+    background-color: #e3e5de;
     position: relative;
 }
 
 body{
-    background-color: #03dac5;
+    background-color: #e3e5de;
 }
 
 .nav-bitl{
@@ -29,4 +29,19 @@ body{
     position: relative;
     top: 40%;
     left: 45%;
+}
+
+.deco{
+    border: 15px solid teal;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+}
+
+.deco-right{
+    left: 5%;
+}
+
+.deco-left{
+    left: 87%;
 }

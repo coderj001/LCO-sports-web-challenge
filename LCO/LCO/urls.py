@@ -20,5 +20,7 @@ from webui import views
 urlpatterns = [
     # path('admin/', admin.site.urls),
     path('', views.index, name=''),
-    path('index/',views.index, name='index')
+    path('index/',views.index, name='index'),
+    path('about/', views.about, name='about'),
+
 ]

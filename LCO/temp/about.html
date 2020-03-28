@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} About Us {% endblock %}
+
+{% block content %}
+    <header>
+            <h2 class="center-align header">About Us</h1>
+            <div class="parallax-container">
+                <div class="parallax"><img src="{% static 'images/img1.png' %}" alt="img1" class="responsive-img"></div>
+            </div>
+            <div class="section">
+                <div class="row container right-align">
+                    <h3 class="header">#Intensity</h3>
+                    <div class="deco deco-right"></div>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        The game of basketball is a very popular sport that is played internationally, whether professionally or as a recreational sport. The game is considered as a high-intensity sport as it requires a lot from its players, particularly on high speed movements where they need change direction or movements very quickly.
+                    </p>
+                </div>
+            </div>
+            <div class="parallax-container">
+                <div class="parallax"><img src="{% static 'images/img3.png' %}" alt="img1" class="responsive-img"></div>
+            </div>
+            <div class="section">
+                <div class="row container left-align">
+                    <h3 class="header">#Enjoyment</h3>
+                    <div class="deco deco-left"></div>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        Basketball is my Favorite Sport. The sport of basketball is known as a fun past time for any person young or old. ... One reason I love basketball is because you need only yourself to play the game or, you can play with teammates. I prefer to have others to play with rather than just playing alone.
+                    </p>
+                </div>
+            </div>
+            <div class="parallax-container">
+                <div class="parallax"><img src="{% static 'images/img2.png' %}" alt="img1" class="responsive-img"></div>
+            </div>
+            <div class="section">
+                <div class="row container right-align">
+                    <h3 class="header">#Togetherness</h3>
+                    <div class="deco deco-right"></div>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        The power of everyone working together could undoubtedly lead to more wins. Increases Communication – Communication is a crucial factor of success when it comes to basketball games. If you work together as a team, your communication levels will improve both on and off the court and lead to more wins.
+                    </p>
+                </div>
+            </div>
+    </header>
+{% endblock %}
