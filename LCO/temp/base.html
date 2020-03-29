@@ -21,7 +21,13 @@
     <div class="nav-bit">
         <nav class="nav-wrapper nav-bitl">
             <div class="container">
+                {% if index %}
+                  <span class="brand-logo heading-logo">
+                    Go Fight For A Team
+                  </span>
+                {% else %}
                 <a href="{% url 'index' %}" class="brand-logo"><img src="{% static 'icons/sports-logo-transparent.png' %}" alt="logo" height="120px" width="120px"></a>
+                {% endif %}
                 <ul class="right">
                     <li><a href="{% url 'about' %}" >About Us</a></li>
                     <li><a href="{% url 'tournament' %}" >Tournament</a></li>
