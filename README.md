@@ -7,6 +7,7 @@
 
 ## General info
 The name of the project is LCO-sports-web-challenge. This project is created as part of the web challenge hosted by HItesh Choudhary on this [video](https://youtu.be/X3QM6Ap6u-4) and [github](https://github.com/hiteshchoudhary/LCO-sports-web-challenge.git). Please open the webpage on full window browser as it is not responsive.
+Visit the [link](http://lco.pythonanywhere.com/) to see the site live. Please wait for a moment as sever took bit of time to host the pictures as size of the pictures are large.
 	
 ## Technologies
 Project is created with:
